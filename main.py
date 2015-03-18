@@ -2,7 +2,6 @@
 
 import os
 import numpy
-from numpy import numarray
 
 
 def extract_all_chars(filenames):
@@ -60,7 +59,7 @@ def cosinus_distance(ngram1, ngram2):
 
 
 # const
-n = 4
+n = 2
 ignored_chars = {' ', '$', '(', ',', '.', ':', ';', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '\\', '`', '\'',
                  '+', '-', '*', '/', '<', '>', '^', '%', '=', '?', '!', '[', ']', '{', '}', '_', '\n', '"', '&', '~'}
 
